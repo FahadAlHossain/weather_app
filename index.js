@@ -14,7 +14,7 @@ let checkWeather = async (city) => {
   } else {
     var data = await res.json();
     // const load = data.data;
-    console.log(data);
+    // console.log(data);
 
     document.querySelector(".city").innerHTML = data.name;
     document.querySelector(".temp").innerHTML =
